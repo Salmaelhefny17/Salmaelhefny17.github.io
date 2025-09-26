@@ -21,7 +21,8 @@
             --highlight: #778da9;
             --light: #e0e1dd;
             --cyber-blue: #00b4d8;
-            --cyber-green: #06d6a0;
+            --cyber-blue2: #0096c7; /* Replaced green with blue */
+            --cyber-blue3: #0077b6; /* Additional blue shade */
             --cyber-red: #ef476f;
         }
 
@@ -64,7 +65,7 @@
             position: absolute;
             width: 60%;
             height: 4px;
-            background: linear-gradient(90deg, var(--cyber-blue), var(--cyber-green));
+            background: linear-gradient(90deg, var(--cyber-blue), var(--cyber-blue2));
             bottom: -10px;
             left: 0;
             border-radius: 2px;
@@ -83,13 +84,13 @@
         }
 
         a:hover {
-            color: var(--cyber-green);
+            color: var(--cyber-blue2);
         }
 
         .btn {
             display: inline-block;
             padding: 14px 32px;
-            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-green));
+            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-blue2));
             color: white;
             border-radius: 30px;
             font-weight: 600;
@@ -110,7 +111,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, var(--cyber-green), var(--cyber-blue));
+            background: linear-gradient(135deg, var(--cyber-blue2), var(--cyber-blue));
             transition: all 0.4s ease;
             z-index: -1;
         }
@@ -338,11 +339,6 @@
             flex: 1;
         }
 
-        .about-image {
-            flex: 1;
-            text-align: center;
-        }
-
         /* Skills Section */
         .skills {
             background-color: var(--primary);
@@ -428,7 +424,7 @@
 
         .project-image {
             height: 200px;
-            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-green));
+            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-blue2));
             display: flex;
             align-items: center;
             justify-content: center;
@@ -496,7 +492,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-green));
+            background: linear-gradient(135deg, var(--cyber-blue), var(--cyber-blue2));
             color: white;
             font-size: 24px;
             transition: all 0.3s ease;
@@ -639,7 +635,7 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://i.ibb.co/0Q7L3zT/cybersecurity-profile.jpg" alt="Salma Ahmed" class="profile-image">
+                    <img src="Salma_Ahmed.jpg" alt="Salma Ahmed" class="profile-image">
                 </div>
             </div>
         </div>
@@ -656,11 +652,6 @@
                     <p>I've actively participated in cybersecurity clubs, technical training sessions, and project management teams, developing both technical expertise and strong soft skills in leadership and communication.</p>
                     <p>I'm currently exploring the intersection of AI and cybersecurity to create intelligent, secure solutions that address real-world challenges.</p>
                     <a href="#contact" class="btn">Contact Me</a>
-                </div>
-                <div class="about-image">
-                    <div style="width: 100%; max-width: 400px; margin: 0 auto;">
-                        <img src="https://i.ibb.co/0Q7L3zT/cybersecurity-profile.jpg" alt="Salma Ahmed" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-                    </div>
                 </div>
             </div>
         </div>
@@ -808,5 +799,3 @@
     </script>
 </body>
 </html>
-
-
